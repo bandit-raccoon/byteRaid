@@ -4,6 +4,7 @@ def greet(name):
     
     :param name: str - The name of the person to greet
     """
-    print(f"Hello, {name}!")
+    # print(f"Hello, {name}!")
+    return str(f"Hello, {name}")
 
 name = str(input("Enter your name: "))

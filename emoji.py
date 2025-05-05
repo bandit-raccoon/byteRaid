@@ -26,6 +26,4 @@ def emoji():
     """
     This function returns a random emoji from the list of emojis.
     """
-    print(random_emoji)
-
-emoji()
+    return str((random_emoji))
